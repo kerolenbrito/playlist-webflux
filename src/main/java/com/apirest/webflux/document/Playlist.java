@@ -6,7 +6,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document
 public class Playlist {
 
-
     public Playlist(String id, String nome) {
         super();
         this.id = id;
